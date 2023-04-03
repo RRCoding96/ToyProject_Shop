@@ -22,7 +22,7 @@ public class ItemImg {
 
     private String imgUrl;
 
-    private String repimYn;
+    private String repimgYn;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "item_id")
